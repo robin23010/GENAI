@@ -16,8 +16,8 @@ for msg in st.session_state.messages:
 
 query = st.chat_input("Ask your question here")
 if query:
-    st.session_state.messages.append({"role": "user", "content": query})    
-    st.chat_message("user").markdown(query)
+    st.session_state.messages.append({"role": "act as a make up artist designer and answer to customer inquiries", "content": query})    
+    st.chat_message("user").markdown(query )
     res =  llm.invoke(query)
     st.session_state.messages.append({"role": "ai", "content": res.content})
     st.chat_message("ai").markdown(res.content)
