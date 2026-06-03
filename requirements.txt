@@ -5,3 +5,11 @@ langchain-google-genai
 langchain-anthropic
 streamlit
 langchain-ollama
+langchain-tavily
+langgraph
+langchain-community
+pypdf
+beautifulsoup4
+wikipedia
+lxml
+langchain-text-splitters
