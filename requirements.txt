@@ -13,3 +13,4 @@ beautifulsoup4
 wikipedia
 lxml
 langchain-text-splitters
+langchain-chroma
